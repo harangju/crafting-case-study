@@ -1,0 +1,20 @@
+name: craft
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyter
+  - numpy
+  - scipy
+  - pandas
+  - plotly
+  - python-kaleido
+  - configparser
+  - requests
+  - pymongo
+  - pip
+  - pip:
+    - web3
+    - nbconvert
+    - pyppeteer
+    - powerlaw
